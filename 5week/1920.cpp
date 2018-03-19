@@ -1,12 +1,28 @@
 #include <cstdio>
 #include <algorithm>
+<<<<<<< HEAD
+<<<<<<< HEAD
 #define MAXX 10000010
+=======
+
+>>>>>>> 46dfa63... 18.03.23
+=======
+#define MAXX 10000010
+>>>>>>> 87d98ca... 18.03.25
 
 using namespace std;
 
 
 int n,m,temp;
+<<<<<<< HEAD
+<<<<<<< HEAD
 int arr[MAXX];
+=======
+int arr[100010];
+>>>>>>> 46dfa63... 18.03.23
+=======
+int arr[MAXX];
+>>>>>>> 87d98ca... 18.03.25
 
 int goodSort(int n , int key){
 	int start = 0;
@@ -47,6 +63,14 @@ int main(){
 		scanf("%d" , &temp);
 		goodSort(n , temp);
 	}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 46dfa63... 18.03.23
+=======
+>>>>>>> 87d98ca... 18.03.25
 }
 
 

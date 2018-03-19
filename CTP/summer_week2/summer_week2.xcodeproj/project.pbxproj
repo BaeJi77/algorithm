@@ -15,9 +15,19 @@
 		788BE27720F37F4900F7A100 /* 11050.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27620F37F4900F7A100 /* 11050.cpp */; };
 		788BE27920F3808300F7A100 /* 11051.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27820F3808300F7A100 /* 11051.cpp */; };
 		788BE27B20F39C5900F7A100 /* 11401.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27A20F39C5900F7A100 /* 11401.cpp */; };
+<<<<<<< HEAD
+<<<<<<< HEAD
 		788BE27D20F4D61800F7A100 /* --1188.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27C20F4D61800F7A100 /* --1188.cpp */; };
 		788BE27F20F4E02500F7A100 /* --2405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27E20F4E02500F7A100 /* --2405.cpp */; };
 		788BE28120F4EBAB00F7A100 /* 15712.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE28020F4EBAB00F7A100 /* 15712.cpp */; };
+=======
+		788BE27D20F4D61800F7A100 /* 1188.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27C20F4D61800F7A100 /* 1188.cpp */; };
+>>>>>>> 195dff8... 18.07.10
+=======
+		788BE27D20F4D61800F7A100 /* --1188.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27C20F4D61800F7A100 /* --1188.cpp */; };
+		788BE27F20F4E02500F7A100 /* --2405.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE27E20F4E02500F7A100 /* --2405.cpp */; };
+		788BE28120F4EBAB00F7A100 /* 15712.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 788BE28020F4EBAB00F7A100 /* 15712.cpp */; };
+>>>>>>> 21aaeb4... 18.07.11
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,9 +52,19 @@
 		788BE27620F37F4900F7A100 /* 11050.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11050.cpp; sourceTree = "<group>"; };
 		788BE27820F3808300F7A100 /* 11051.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11051.cpp; sourceTree = "<group>"; };
 		788BE27A20F39C5900F7A100 /* 11401.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11401.cpp; sourceTree = "<group>"; };
+<<<<<<< HEAD
+<<<<<<< HEAD
 		788BE27C20F4D61800F7A100 /* --1188.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--1188.cpp"; sourceTree = "<group>"; };
 		788BE27E20F4E02500F7A100 /* --2405.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--2405.cpp"; sourceTree = "<group>"; };
 		788BE28020F4EBAB00F7A100 /* 15712.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15712.cpp; sourceTree = "<group>"; };
+=======
+		788BE27C20F4D61800F7A100 /* 1188.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1188.cpp; sourceTree = "<group>"; };
+>>>>>>> 195dff8... 18.07.10
+=======
+		788BE27C20F4D61800F7A100 /* --1188.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--1188.cpp"; sourceTree = "<group>"; };
+		788BE27E20F4E02500F7A100 /* --2405.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--2405.cpp"; sourceTree = "<group>"; };
+		788BE28020F4EBAB00F7A100 /* 15712.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15712.cpp; sourceTree = "<group>"; };
+>>>>>>> 21aaeb4... 18.07.11
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +105,19 @@
 				788BE27620F37F4900F7A100 /* 11050.cpp */,
 				788BE27820F3808300F7A100 /* 11051.cpp */,
 				788BE27A20F39C5900F7A100 /* 11401.cpp */,
+<<<<<<< HEAD
+<<<<<<< HEAD
 				788BE27E20F4E02500F7A100 /* --2405.cpp */,
 				788BE28020F4EBAB00F7A100 /* 15712.cpp */,
 				788BE27C20F4D61800F7A100 /* --1188.cpp */,
+=======
+				788BE27C20F4D61800F7A100 /* 1188.cpp */,
+>>>>>>> 195dff8... 18.07.10
+=======
+				788BE27E20F4E02500F7A100 /* --2405.cpp */,
+				788BE28020F4EBAB00F7A100 /* 15712.cpp */,
+				788BE27C20F4D61800F7A100 /* --1188.cpp */,
+>>>>>>> 21aaeb4... 18.07.11
 			);
 			path = summer_week2;
 			sourceTree = "<group>";
@@ -149,12 +179,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 				788BE28120F4EBAB00F7A100 /* 15712.cpp in Sources */,
 				788BE27D20F4D61800F7A100 /* --1188.cpp in Sources */,
 				7837757320F365A800ABA991 /* 3896.cpp in Sources */,
 				788BE27B20F39C5900F7A100 /* 11401.cpp in Sources */,
 				788BE27720F37F4900F7A100 /* 11050.cpp in Sources */,
 				788BE27F20F4E02500F7A100 /* --2405.cpp in Sources */,
+=======
+				788BE27D20F4D61800F7A100 /* 1188.cpp in Sources */,
+				7837757320F365A800ABA991 /* 3896.cpp in Sources */,
+				788BE27B20F39C5900F7A100 /* 11401.cpp in Sources */,
+				788BE27720F37F4900F7A100 /* 11050.cpp in Sources */,
+>>>>>>> 195dff8... 18.07.10
+=======
+				788BE28120F4EBAB00F7A100 /* 15712.cpp in Sources */,
+				788BE27D20F4D61800F7A100 /* --1188.cpp in Sources */,
+				7837757320F365A800ABA991 /* 3896.cpp in Sources */,
+				788BE27B20F39C5900F7A100 /* 11401.cpp in Sources */,
+				788BE27720F37F4900F7A100 /* 11050.cpp in Sources */,
+				788BE27F20F4E02500F7A100 /* --2405.cpp in Sources */,
+>>>>>>> 21aaeb4... 18.07.11
 				780FA31420F36C75005CEB2A /* 9421.cpp in Sources */,
 				7837757120F3618D00ABA991 /* 2609.cpp in Sources */,
 				7837756A20F35DCD00ABA991 /* 11659.cpp in Sources */,

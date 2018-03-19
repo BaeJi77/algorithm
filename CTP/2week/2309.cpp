@@ -1,5 +1,12 @@
 #include <iostream>
 #include <string>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#include <vector>
+>>>>>>> 46dfa63... 18.03.23
+=======
+>>>>>>> 1ff6c3c... 18.05.08
 #include <cstdio>
 #include <algorithm>
 

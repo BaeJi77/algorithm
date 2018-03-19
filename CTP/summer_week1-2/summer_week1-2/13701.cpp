@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e2a4942... 18.07.09
 ////
 ////  13701.cpp 중복제거
 ////  https://www.acmicpc.net/problem/13701
@@ -6,6 +10,7 @@
 ////  Created by Hoon on 2018. 7. 5..
 ////  Copyright © 2018년 Hoon. All rights reserved.
 ////
+<<<<<<< HEAD
 //
 //#include <stdio.h>
 //int a[1100000];
@@ -23,3 +28,42 @@
 //    }
 //}
 
+=======
+=======
+>>>>>>> e2a4942... 18.07.09
+//
+//#include <stdio.h>
+//int a[1100000];
+//int input;
+//int arr, pos;
+//
+//
+//int main(){
+//    while (scanf("%d",&input) != EOF) {
+//        arr = input/32;
+//        pos = input%32;
+//        int print = a[arr]&(1<<pos);
+//        a[arr] |= (1<<pos);
+//        if(print == 0) printf("%d " , input);
+//    }
+//}
+
+<<<<<<< HEAD
+#include <stdio.h>
+int a[1100000];
+int input;
+int arr, pos;
+
+
+int main(){
+    while (scanf("%d",&input) != EOF) {
+        arr = input/32;
+        pos = input%32;
+        int print = a[arr]&(1<<pos);
+        a[arr] |= (1<<pos);
+        if(print == 0) printf("%d " , input);
+    }
+}
+>>>>>>> add185c... 18.07.06
+=======
+>>>>>>> e2a4942... 18.07.09

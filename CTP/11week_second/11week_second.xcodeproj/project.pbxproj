@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		7886865B20AEE31F00D39652 /* 2966.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7886865A20AEE31F00D39652 /* 2966.cpp */; };
 		7886866220AEE8DC00D39652 /* 14500.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7886866120AEE8DC00D39652 /* 14500.cpp */; };
+<<<<<<< HEAD
+<<<<<<< HEAD
 		78EE01DF20CBF30900BE6BF6 /* 1697.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78EE01DE20CBF30900BE6BF6 /* 1697.cpp */; };
+=======
+>>>>>>> 7b46f3b... 18.05.24
+=======
+		78EE01DF20CBF30900BE6BF6 /* 1697.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78EE01DE20CBF30900BE6BF6 /* 1697.cpp */; };
+>>>>>>> add185c... 18.07.06
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +35,14 @@
 		7886865720AEE31F00D39652 /* 11week_second */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 11week_second; sourceTree = BUILT_PRODUCTS_DIR; };
 		7886865A20AEE31F00D39652 /* 2966.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2966.cpp; sourceTree = "<group>"; };
 		7886866120AEE8DC00D39652 /* 14500.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14500.cpp; sourceTree = "<group>"; };
+<<<<<<< HEAD
+<<<<<<< HEAD
 		78EE01DE20CBF30900BE6BF6 /* 1697.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1697.cpp; sourceTree = "<group>"; };
+=======
+>>>>>>> 7b46f3b... 18.05.24
+=======
+		78EE01DE20CBF30900BE6BF6 /* 1697.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1697.cpp; sourceTree = "<group>"; };
+>>>>>>> add185c... 18.07.06
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +76,14 @@
 			isa = PBXGroup;
 			children = (
 				7886865A20AEE31F00D39652 /* 2966.cpp */,
+<<<<<<< HEAD
+<<<<<<< HEAD
 				78EE01DE20CBF30900BE6BF6 /* 1697.cpp */,
+=======
+>>>>>>> 7b46f3b... 18.05.24
+=======
+				78EE01DE20CBF30900BE6BF6 /* 1697.cpp */,
+>>>>>>> add185c... 18.07.06
 				7886866120AEE8DC00D39652 /* 14500.cpp */,
 			);
 			path = 11week_second;
@@ -125,7 +146,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+<<<<<<< HEAD
 				78EE01DF20CBF30900BE6BF6 /* 1697.cpp in Sources */,
+=======
+>>>>>>> 7b46f3b... 18.05.24
+=======
+				78EE01DF20CBF30900BE6BF6 /* 1697.cpp in Sources */,
+>>>>>>> add185c... 18.07.06
 				7886866220AEE8DC00D39652 /* 14500.cpp in Sources */,
 				7886865B20AEE31F00D39652 /* 2966.cpp in Sources */,
 			);

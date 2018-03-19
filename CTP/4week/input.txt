@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1ff6c3c... 18.05.08
 26
 add 1
 add 2
@@ -24,4 +28,42 @@ check 1
 toggle 1
 check 1
 toggle 1
+<<<<<<< HEAD
 check 1
+=======
+26 5
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+25
+Raichu
+3
+Pidgey
+Kakuna
+>>>>>>> 377e168... 18.04.07 오랜만에 하는 커밋
+=======
+check 1
+>>>>>>> 1ff6c3c... 18.05.08

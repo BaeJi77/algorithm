@@ -8,9 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		78616A1C20A5ABA800344FB4 /* 1717.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A1B20A5ABA800344FB4 /* 1717.cpp */; };
+<<<<<<< HEAD
+<<<<<<< HEAD
 		78616A2320A5BE0E00344FB4 /* 1967.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A2220A5BE0E00344FB4 /* 1967.cpp */; };
 		78616A3A20A9DCE800344FB4 /* 5639.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A3820A9DCE800344FB4 /* 5639.cpp */; };
 		78EE01DD20CBEF9B00BE6BF6 /* 4256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78EE01DC20CBEF9B00BE6BF6 /* 4256.cpp */; };
+=======
+		78616A2320A5BE0E00344FB4 /* 1976.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A2220A5BE0E00344FB4 /* 1976.cpp */; };
+		78616A3A20A9DCE800344FB4 /* 5639.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A3820A9DCE800344FB4 /* 5639.cpp */; };
+>>>>>>> 7b46f3b... 18.05.24
+=======
+		78616A2320A5BE0E00344FB4 /* 1967.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A2220A5BE0E00344FB4 /* 1967.cpp */; };
+		78616A3A20A9DCE800344FB4 /* 5639.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78616A3820A9DCE800344FB4 /* 5639.cpp */; };
+		78EE01DD20CBEF9B00BE6BF6 /* 4256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78EE01DC20CBEF9B00BE6BF6 /* 4256.cpp */; };
+>>>>>>> add185c... 18.07.06
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +39,20 @@
 /* Begin PBXFileReference section */
 		78616A1820A5ABA800344FB4 /* 10week-second */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10week-second"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78616A1B20A5ABA800344FB4 /* 1717.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1717.cpp; sourceTree = "<group>"; };
+<<<<<<< HEAD
+<<<<<<< HEAD
 		78616A2220A5BE0E00344FB4 /* 1967.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1967.cpp; sourceTree = "<group>"; };
 		78616A3820A9DCE800344FB4 /* 5639.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5639.cpp; sourceTree = "<group>"; };
 		78EE01DC20CBEF9B00BE6BF6 /* 4256.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4256.cpp; sourceTree = "<group>"; };
+=======
+		78616A2220A5BE0E00344FB4 /* 1976.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1976.cpp; sourceTree = "<group>"; };
+		78616A3820A9DCE800344FB4 /* 5639.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5639.cpp; sourceTree = "<group>"; };
+>>>>>>> 7b46f3b... 18.05.24
+=======
+		78616A2220A5BE0E00344FB4 /* 1967.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1967.cpp; sourceTree = "<group>"; };
+		78616A3820A9DCE800344FB4 /* 5639.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 5639.cpp; sourceTree = "<group>"; };
+		78EE01DC20CBEF9B00BE6BF6 /* 4256.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4256.cpp; sourceTree = "<group>"; };
+>>>>>>> add185c... 18.07.06
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +86,17 @@
 			isa = PBXGroup;
 			children = (
 				78616A1B20A5ABA800344FB4 /* 1717.cpp */,
+<<<<<<< HEAD
+<<<<<<< HEAD
 				78616A2220A5BE0E00344FB4 /* 1967.cpp */,
 				78EE01DC20CBEF9B00BE6BF6 /* 4256.cpp */,
+=======
+				78616A2220A5BE0E00344FB4 /* 1976.cpp */,
+>>>>>>> 7b46f3b... 18.05.24
+=======
+				78616A2220A5BE0E00344FB4 /* 1967.cpp */,
+				78EE01DC20CBEF9B00BE6BF6 /* 4256.cpp */,
+>>>>>>> add185c... 18.07.06
 				78616A3820A9DCE800344FB4 /* 5639.cpp */,
 			);
 			path = "10week-second";
@@ -129,8 +160,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				78616A3A20A9DCE800344FB4 /* 5639.cpp in Sources */,
+<<<<<<< HEAD
+<<<<<<< HEAD
 				78616A2320A5BE0E00344FB4 /* 1967.cpp in Sources */,
 				78EE01DD20CBEF9B00BE6BF6 /* 4256.cpp in Sources */,
+=======
+				78616A2320A5BE0E00344FB4 /* 1976.cpp in Sources */,
+>>>>>>> 7b46f3b... 18.05.24
+=======
+				78616A2320A5BE0E00344FB4 /* 1967.cpp in Sources */,
+				78EE01DD20CBEF9B00BE6BF6 /* 4256.cpp in Sources */,
+>>>>>>> add185c... 18.07.06
 				78616A1C20A5ABA800344FB4 /* 1717.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

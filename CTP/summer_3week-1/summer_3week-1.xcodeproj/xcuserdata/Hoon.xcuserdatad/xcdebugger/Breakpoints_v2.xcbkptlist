@@ -2,6 +2,10 @@
 <Bucket
    type = "1"
    version = "2.0">
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> adc4ac6... 18.07.18
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
@@ -18,4 +22,9 @@
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
+<<<<<<< HEAD
+=======
+>>>>>>> bcfaafc... 18.07.17
+=======
+>>>>>>> adc4ac6... 18.07.18
 </Bucket>

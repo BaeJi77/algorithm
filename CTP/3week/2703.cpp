@@ -10,7 +10,15 @@ string option;
 int main() {
 	freopen("input.txt", "r", stdin);
 	cin>>t;
+<<<<<<< HEAD
+<<<<<<< HEAD
 	// cout<<t;
+=======
+	cout<<t;
+>>>>>>> 9c051f4... 18.03.30
+=======
+	// cout<<t;
+>>>>>>> 377e168... 18.04.07 오랜만에 하는 커밋
 	getchar();
 
 	while(t--){

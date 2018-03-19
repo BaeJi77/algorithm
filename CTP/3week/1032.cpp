@@ -1,14 +1,38 @@
 #include <cstdio>
 #include <cstring>
+<<<<<<< HEAD
+<<<<<<< HEAD
 #include <iostream>
+=======
+#define MAXX 1000000
+#include <iostream>
+#include <cstdlib>
+// #include <string>
+
+>>>>>>> 377e168... 18.04.07 오랜만에 하는 커밋
+=======
+#include <iostream>
+>>>>>>> 1ff6c3c... 18.05.08
 
 using namespace std;
 
 int t;
 string str;
 string input;
+<<<<<<< HEAD
+<<<<<<< HEAD
 string result;
 
+=======
+int strlength;
+string result;
+
+
+>>>>>>> 377e168... 18.04.07 오랜만에 하는 커밋
+=======
+string result;
+
+>>>>>>> 1ff6c3c... 18.05.08
 int main(){
 	freopen("input.txt", "r", stdin);
 

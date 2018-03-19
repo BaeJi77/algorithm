@@ -1,6 +1,16 @@
 #include <cstdio>
 #include <cstring>
+<<<<<<< HEAD
+<<<<<<< HEAD
 #include <iostream>
+=======
+#define MAXX 1000000
+#include <iostream>
+
+>>>>>>> 9c051f4... 18.03.30
+=======
+#include <iostream>
+>>>>>>> 377e168... 18.04.07 오랜만에 하는 커밋
 using namespace std;
 
 int n;
