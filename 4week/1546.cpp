@@ -15,7 +15,8 @@ int main(){
 	vector<int> Good;
 
 	cin>>n;
-	cout.precision(2);
+	int num=n;
+	
 	while(n--){
 		cin>>grade;
 
@@ -24,9 +25,14 @@ int main(){
 		}
 		Good.push_back(grade);
 	}
-	for(int i=0;i<n;i++){
+	for(int i=0;i<num;i++){
+		// cout<<Good[i]<<endl;
+		Good[i]=(Good[i]/Max)*100;
 		cout<<Good[i]<<endl;
-		sum+=(Good[i]/Max)*100;
 	}
-	cout<<sum;
+	for(int i=0;i<num;i++){
+		sum=sum+Good[i];
+	}
+	cout.precision(2);
+	cout<<sum/num;
 }
