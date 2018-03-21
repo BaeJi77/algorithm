@@ -9,6 +9,7 @@ int input;
 int Max;
 int result;
 int dif;
+int difsum;
 
 
 int main(){
@@ -22,14 +23,18 @@ int main(){
 	for(int i=0;i<n-1;i++){
 		if(arr[i]<arr[i+1]){
 			result = arr[i+1]-arr[i];
+			difsum += result;
 			if(Max<result)
-				Max = result;
-			if(arr[i]==arr[i+1])
-				dif++;
+				Max = difsum;
+		}else{
+			difsum=0;
 		}
+		if(arr[i]==arr[i+1])
+			dif++;
 	}
 	if(dif==n){
 		cout<<0;
+	}else{
+		cout<<Max;
 	}
-	cout<<Max;
 }
