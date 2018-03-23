@@ -24,7 +24,7 @@ int main(){
 		if(arr[i]<arr[i+1]){
 			result = arr[i+1]-arr[i];
 			difsum += result;
-			if(Max<result)
+			if(Max<difsum)
 				Max = difsum;
 		}else{
 			difsum=0;
