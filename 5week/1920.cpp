@@ -1,12 +1,12 @@
 #include <cstdio>
 #include <algorithm>
-
+#define MAXX 10000010
 
 using namespace std;
 
 
 int n,m,temp;
-int arr[100010];
+int arr[MAXX];
 
 int goodSort(int n , int key){
 	int start = 0;
@@ -47,8 +47,6 @@ int main(){
 		scanf("%d" , &temp);
 		goodSort(n , temp);
 	}
-
-
 }
 
 
