@@ -10,7 +10,7 @@ string option;
 int main() {
 	freopen("input.txt", "r", stdin);
 	cin>>t;
-	cout<<t;
+	// cout<<t;
 	getchar();
 
 	while(t--){

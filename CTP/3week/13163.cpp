@@ -1,8 +1,6 @@
 #include <cstdio>
 #include <cstring>
-#define MAXX 1000000
 #include <iostream>
-
 using namespace std;
 
 int n;
