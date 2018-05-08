@@ -1,19 +1,13 @@
 #include <cstdio>
 #include <cstring>
-#define MAXX 1000000
 #include <iostream>
-#include <cstdlib>
-// #include <string>
-
 
 using namespace std;
 
 int t;
 string str;
 string input;
-int strlength;
 string result;
-
 
 int main(){
 	freopen("input.txt", "r", stdin);

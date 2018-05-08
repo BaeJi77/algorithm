@@ -7,7 +7,7 @@ using namespace std;
 
 int t;
 int input;
-string str;
+char str[10];
 set <int> se; 
 // set <int>::iterator it;
 
@@ -17,8 +17,8 @@ int main(){
 	
 	scanf("%d" , &t);
 	for(int i = 0 ; i < t ; i ++){
-		cin>>str;
-		if(str == "add"){
+		scanf("%s" , str);
+		if(str[0] == 'a' && str[1] == 'd'){
 			scanf("%d" , &input);
 			se.insert(input);
 		}else if(str[0] == 'r'){
@@ -37,7 +37,7 @@ int main(){
 			}else{
 				se.insert(input);
 			}
-		}else if(str == "all"){
+		}else if(str[0] == 'a'){
 			if(se.size() == 20) continue;
 			for(int i = 1 ; i <= 20 ; i ++){
 				se.insert(i);

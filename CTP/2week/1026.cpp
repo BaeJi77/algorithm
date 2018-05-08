@@ -13,9 +13,6 @@ int result;
 int input;
 int sum;
 
-
-
-
 /**
 * 보물
 * 아스키 코드 값에 '0'을 빼주면 숫자들이 나온다
