@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <cstdio>
 #include <algorithm>
 
@@ -11,12 +10,6 @@ int n;
 int num;
 int arr[1100];
 int sum;
-
-/**
-* 정렬
-* STL algorithm
-*/
-
 
 int main(){
 	freopen("input.txt", "r", stdin);

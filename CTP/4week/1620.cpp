@@ -2,18 +2,13 @@
 #include <string>
 #include <iostream>
 #include <map>
-#include <vector>
-#include <algorithm>
-
 
 using namespace std;
 
 int n,m;
-char input[20] ;
-map <int , string> mp;
-map <int , string>::iterator it;
-vector <string> vt;
-vector <string>::iterator vit;
+char input[30];
+map <string , int> mp;
+string arr[100010];
 
 
 
@@ -22,26 +17,19 @@ int main(){
 	
 	scanf("%d %d" , &n ,&m);
 	for(int i = 1 ; i <= n ; i++){
-		scanf("%20s" , input);
-		mp[i] = input;
-		vt.push_back(input);
+		scanf("%s" , input);
+		mp[input] = i;
+		arr[i] = input;
 	}
 
 	for(int i = 0 ; i < m ; i++){
-		cin>>input;
+		scanf("%s" , input);
 		int check = input[0] - '0';
 		if(check >= 0 && check <= 9){
 			int toInt = stoi(input);
-			cout<<mp.find(toInt)->second<<endl;
+			cout<<arr[stoi(input)]<<"\n";
 		}else {
-			vit = find(vt.begin() , vt.end() , input);
-			int Num = distance(vt.begin(), vit);
-			cout<<Num+1<<endl;
-			// for(it = mp.begin() ; it != mp.end() ; it++){
-			// 	if(it->second == input){
-			// 		cout<<it->first<<endl;
-			// 	}
-			// }
+			printf("%d\n" , mp[input]);
 		}
 		
 	}
