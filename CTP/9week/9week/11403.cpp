@@ -2,7 +2,6 @@
 #include <cstring>
 #include <vector>
 
-
 using namespace std;
 
 int T;
@@ -31,7 +30,6 @@ int main(){
 			}
 		}
 	}
-
 	for(int i = 1 ; i <= T ; i++){
 		memset(visited , 0 , sizeof(visited));
 		for(int j=0;j<input[i].size();j++){
