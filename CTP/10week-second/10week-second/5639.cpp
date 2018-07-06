@@ -1,17 +1,18 @@
+////
+////  5639.cpp
+////  10week-second
+////
+////  Created by Hoon on 2018. 5. 15..
+////  Copyright © 2018년 Hoon. All rights reserved.
+////
 //
-//  5639.cpp
-//  10week-second
+//#include <cstdio>
 //
-//  Created by Hoon on 2018. 5. 15..
-//  Copyright © 2018년 Hoon. All rights reserved.
+//using namespace std;
 //
+//
+//
+//int main(){
+//    
+//}
 
-#include <cstdio>
-
-using namespace std;
-
-
-
-int main(){
-    
-}

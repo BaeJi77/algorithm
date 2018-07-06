@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782C79AE20C4FA76008AA6C4 /* 15788.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 782C79AD20C4FA76008AA6C4 /* 15788.cpp */; };
 		7880018E20BBB3070040C5AB /* B.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7880018D20BBB3070040C5AB /* B.cpp */; };
 		7880019520BBB3A90040C5AB /* AngryJinseo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7880019420BBB3A90040C5AB /* AngryJinseo.cpp */; };
 		7880019720BBB3C50040C5AB /* A.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7880019620BBB3C50040C5AB /* A.cpp */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		782C79AD20C4FA76008AA6C4 /* 15788.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15788.cpp; sourceTree = "<group>"; usesTabs = 0; };
 		7880018A20BBB3070040C5AB /* 2018_IUPC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2018_IUPC; sourceTree = BUILT_PRODUCTS_DIR; };
 		7880018D20BBB3070040C5AB /* B.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B.cpp; sourceTree = "<group>"; };
 		7880019420BBB3A90040C5AB /* AngryJinseo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AngryJinseo.cpp; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				7880019620BBB3C50040C5AB /* A.cpp */,
 				7880019820BBB3F80040C5AB /* kingdom.cpp */,
 				7880019420BBB3A90040C5AB /* AngryJinseo.cpp */,
+				782C79AD20C4FA76008AA6C4 /* 15788.cpp */,
 			);
 			path = 2018_IUPC;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				7880019720BBB3C50040C5AB /* A.cpp in Sources */,
 				7880019920BBB3F80040C5AB /* kingdom.cpp in Sources */,
+				782C79AE20C4FA76008AA6C4 /* 15788.cpp in Sources */,
 				7880018E20BBB3070040C5AB /* B.cpp in Sources */,
 				7880019520BBB3A90040C5AB /* AngryJinseo.cpp in Sources */,
 			);
