@@ -14,6 +14,7 @@
 		78F6E9C320FCC71800A27BFA /* --1300_K번째 수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F6E9C220FCC71800A27BFA /* --1300_K번째 수.cpp */; };
 		78F6E9C520FD82B300A27BFA /* --2343_기타 레슨.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F6E9C420FD82B300A27BFA /* --2343_기타 레슨.cpp */; };
 		78F6E9C720FD905E00A27BFA /* 6236_용돈 관리.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F6E9C620FD905E00A27BFA /* 6236_용돈 관리.cpp */; };
+		78F6E9C920FDB90500A27BFA /* 2512_예산.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78F6E9C820FDB90500A27BFA /* 2512_예산.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		78F6E9C220FCC71800A27BFA /* --1300_K번째 수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--1300_K번째 수.cpp"; sourceTree = "<group>"; };
 		78F6E9C420FD82B300A27BFA /* --2343_기타 레슨.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--2343_기타 레슨.cpp"; sourceTree = "<group>"; };
 		78F6E9C620FD905E00A27BFA /* 6236_용돈 관리.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "6236_용돈 관리.cpp"; sourceTree = "<group>"; };
+		78F6E9C820FDB90500A27BFA /* 2512_예산.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2512_예산.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				78F6E9C220FCC71800A27BFA /* --1300_K번째 수.cpp */,
 				78F6E9C420FD82B300A27BFA /* --2343_기타 레슨.cpp */,
 				78F6E9C620FD905E00A27BFA /* 6236_용돈 관리.cpp */,
+				78F6E9C820FDB90500A27BFA /* 2512_예산.cpp */,
 				78F6E9BE20FCB13A00A27BFA /* 1654_랜선 자르기 .cpp */,
 			);
 			path = "summer_3week-1";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F6E9C920FDB90500A27BFA /* 2512_예산.cpp in Sources */,
 				78F6E9BF20FCB13A00A27BFA /* 1654_랜선 자르기 .cpp in Sources */,
 				78F6E9C120FCB97600A27BFA /* 2110_공유기 설치.cpp in Sources */,
 				78F6E9B620FC99B700A27BFA /* 2805_나무자르기.cpp in Sources */,

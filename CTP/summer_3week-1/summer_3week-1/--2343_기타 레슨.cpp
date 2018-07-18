@@ -11,34 +11,33 @@
 //#define INF 999999999
 //using namespace std;
 //
-//int n,m,basicSum,left,right,minn,cnt;
+//int n,m,basicSum,left,right,minn,cnt,maxx,basicMax;
 //int arr[100004];
+//
 //
 //int function(){
 //    left = 1;
-//    right = basicSum;
+//    right = 1000000;
 //    minn = INF;
-//    while (left<=right) {
-//        cnt = 0;
+//    while (left <= right) {
 //        int mid = (left+right)/2;
-//        int temp = 0;
-//
-//        for (int i = 0; i < n; i++) {
-//            if(m != cnt){
-//                temp += arr[i];
-//                if(temp+arr[i+1] > mid) {
-//                    temp = 0;
-//                    cnt++;
-//                }
-//            }
+//        cnt = 0;
+//        int sum = 0;
+//        for (int i = 0 ; i < n; i++) {
+//            if(sum + arr[i] > mid){
+//                cnt++;
+//                sum=arr[i];
+//            }else sum += arr[i];
 //        }
 //
-//        if(cnt < m){ // cnt < m => 크게 짤랐다. right를 줄이자
-//            right = mid - 1;
-//            minn = min(minn,mid);
-//        }else{
-//            left = mid + 1;
+//        if(m > cnt){ //bluelay 수가 적게 필요하다 => mid값이 크다
+//            right = mid -1;
+//            minn = min(minn , mid);
+//        }else{ //bluelay 크기의 최소 -> 3.99999 -> 4되기 전까지
+//            left = mid +1;
+////            maxx = max(maxx , mid);
 //        }
+//        printf("%d %d %d %d\n" , left , right , mid , cnt);
 //    }
 //    return minn;
 //}
@@ -48,9 +47,11 @@
 //    for (int i = 0 ; i < n; i++) {
 //        scanf("%d" , &arr[i]);
 //        basicSum += arr[i];
+//        basicMax = max(basicMax,arr[i]);
 //    }
 //
 //    int ans = function();
 //    printf("%d" , ans);
 //}
+//
 //
