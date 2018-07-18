@@ -7,28 +7,52 @@
 //
 
 #include <stdio.h>
-
+#include <algorithm>
+#include <limits.h>
+#define INF INT_MAX
 using namespace std;
 
-int n,m,left,right,total;
+int n,m,left,right,basicTotal,basicMax,maxx,cnt,minn;
 int arr[100004];
 
-void function(){
+int function(){
     left = 1;
-    right = 10000;
-    while (left<=right) {
+    right = 1000000000;
+    while (left <= right) {
         int mid = (left+right)/2;
-        //값을 두개와 비교 1. 새로운 값의 인출횟수를 곱한것은 필요한 돈의 총합을 넘어야한다. 2. 1번에서 구한 평균값은 맥스값보다 크거나 같아야 한다.
-        int tmepProduct = mid * m;
+        cnt = 0;
+        int sum = 0;
+        for (int i = 0 ; i < n; i++) {
+            if(sum + arr[i] > mid){
+                sum = arr[i];
+                cnt++;
+            }else sum += arr[i];
+        }
+
+        if(m > cnt){ //돈을 적게 뽑아도 된다 => mid값이 크다. => mid값을 줄이자.
+            right = mid -1;
+        }else { // mid 값을 키우자 // 3.99999 -> 4가 될정도로 가까이 mid가 커지길 원해
+            left = mid +1;
+            maxx = max(maxx , mid);
+        }
+//        printf("%d %d %d\n" , left , right , mid);
     }
+
+    return maxx;
 }
 
 int main(){
     scanf("%d %d" , &n,&m);
     for (int i = 0 ; i < n; i++) {
         scanf("%d" , &arr[i]);
-        total += arr[i];
+        basicTotal += arr[i];
+        basicMax = max(basicMax,arr[i]);
     }
-    
-    function();
+
+    int ans = function();
+    if(basicMax > ans) printf("%d" , basicMax);
+    else printf("%d" , ans+1);
 }
+
+
+
