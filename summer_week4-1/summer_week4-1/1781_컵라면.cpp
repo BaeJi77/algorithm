@@ -12,9 +12,10 @@
 //#include <vector>
 //using namespace std;
 //
-//int n,Time,nowPriority,maxx,sum;
+//int n,sum;
 //priority_queue<int> pq;
 //vector<pair<int, int>> vt;
+//
 //int main(){
 //    scanf("%d" , &n);
 //    for (int i = 0; i < n; i++) {
@@ -43,4 +44,4 @@
 //    
 //    printf("%d" , sum);
 //}
-
+//

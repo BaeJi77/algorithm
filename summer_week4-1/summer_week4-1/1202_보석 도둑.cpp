@@ -15,9 +15,8 @@
 //typedef long long ll;
 //ll n,k,sum;
 //priority_queue<pair<int, int>> pq;
-//vector<pair<ll, ll>> vt;
 //multiset<ll> bag;
-//vector<ll> ans;
+//
 //int main(){
 //    scanf("%lld %lld" , &n,&k);
 //    for (ll i = 0; i < n; i++) {
@@ -31,6 +30,7 @@
 //        scanf("%lld" , &a);
 //        bag.insert(a);
 //    }
+//    
 //    while (pq.size()) {
 //        ll value = pq.top().first;
 //        ll weight = pq.top().second;
@@ -42,6 +42,7 @@
 //        bag.erase(it);
 //        sum+= value;
 //    }
+//    
 //    printf("%lld" , sum);
 //}
-//
+
