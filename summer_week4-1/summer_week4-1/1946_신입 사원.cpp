@@ -26,9 +26,9 @@ int main(){
             arr[a] = b;
             vt.push_back({a,b});
         }
-        sort(vt.begin(), vt.end());
-        
-        //vector <pair> 방식
+//        sort(vt.begin(), vt.end());
+//
+//        vector <pair> 방식
 //        ended = vt[0].second;
 //        for (int i = 1; i < n; i++) {
 //            int nowScore = vt[i].second;
@@ -39,7 +39,7 @@ int main(){
 //            if(ended == 1) break;
 //        }
         
-        //array 방식
+        //array 방식 => 정렬 안해도 됨
         ended = arr[1];
         for (int i = 2; i <= n; i++) {
             if(ended > arr[i]){
