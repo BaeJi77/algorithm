@@ -27,6 +27,7 @@
 //
 //        if(dist[here] != -1) continue;
 //        dist[here] = cost;
+//
 //        for (int i = 0; i < vt[here].size(); i++) {
 //            int there = vt[here][i].first;
 //            int ncost = vt[here][i].second + cost;
@@ -54,4 +55,4 @@
 //        else cout<<"INF\n";
 //    }
 //}
-
+//
