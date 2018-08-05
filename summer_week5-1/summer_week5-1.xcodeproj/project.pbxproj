@@ -16,7 +16,6 @@
 		780DA0B021100C5B00F995F8 /* --14431_소수마을.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 780DA0AF21100C5B00F995F8 /* --14431_소수마을.cpp */; };
 		780DA0B421119FC300F995F8 /* 12026_BOJ거리.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 780DA0B321119FC300F995F8 /* 12026_BOJ거리.cpp */; };
 		780DA0B62111BF5C00F995F8 /* 13913_숨바꼭질 4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 780DA0B52111BF5C00F995F8 /* 13913_숨바꼭질 4.cpp */; };
-		780DA0BD21158F9200F995F8 /* 5719_거의 최단 경로.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 780DA0BC21158F9200F995F8 /* 5719_거의 최단 경로.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +45,8 @@
 		780DA0B72111F63500F995F8 /* --13911_집 구하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--13911_집 구하기.cpp"; sourceTree = "<group>"; };
 		780DA0B921129E7800F995F8 /* --1162_도로포장.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--1162_도로포장.cpp"; sourceTree = "<group>"; };
 		780DA0BC21158F9200F995F8 /* 5719_거의 최단 경로.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5719_거의 최단 경로.cpp"; sourceTree = "<group>"; };
+		780DA0BE2115FE9E00F995F8 /* --9370_미확인 도착지.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--9370_미확인 도착지.cpp"; sourceTree = "<group>"; };
+		780DA0C02116DEE100F995F8 /* 1504_특정한 최단 경로.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1504_특정한 최단 경로.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,8 @@
 				780DA0B72111F63500F995F8 /* --13911_집 구하기.cpp */,
 				780DA0B921129E7800F995F8 /* --1162_도로포장.cpp */,
 				780DA0BC21158F9200F995F8 /* 5719_거의 최단 경로.cpp */,
+				780DA0BE2115FE9E00F995F8 /* --9370_미확인 도착지.cpp */,
+				780DA0C02116DEE100F995F8 /* 1504_특정한 최단 경로.cpp */,
 			);
 			path = "summer_week5-1";
 			sourceTree = "<group>";
@@ -159,7 +162,6 @@
 				780DA09F210EDED900F995F8 /* 1753_최단경로.cpp in Sources */,
 				780DA0A8210EEB2900F995F8 /* 10282_해킹.cpp in Sources */,
 				780DA0AE210FF36300F995F8 /* 1261_알고스팟.cpp in Sources */,
-				780DA0BD21158F9200F995F8 /* 5719_거의 최단 경로.cpp in Sources */,
 				780DA0B021100C5B00F995F8 /* --14431_소수마을.cpp in Sources */,
 				780DA0B421119FC300F995F8 /* 12026_BOJ거리.cpp in Sources */,
 			);

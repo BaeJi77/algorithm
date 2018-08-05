@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <vector>
 #include <queue>
-#include <set>
+#include <cstring>
 using namespace std;
 
 int n,m,s,e;
@@ -19,7 +19,6 @@ vector<vector<pair<int, int>>> vt;
 vector<vector<pair<int, int>>> rvt;
 queue<int> qu;
 priority_queue<pair<int, int>> pq;
-set<pair<int, int>> set;
 
 void dij(){
     memset(dist,-1,sizeof(dist));
@@ -37,7 +36,8 @@ void dij(){
             int there = vt[here][i].first;
             
             if(check[here][there] == -1) continue;
-            if(dist[here] == -1) pq.push({-ncost,there});
+            
+            if(dist[there] == -1) pq.push({-ncost,there});
         }
     }
 }
@@ -64,10 +64,12 @@ void checkLine(){
 int main(){
     while(scanf("%d %d" , &n,&m)){
         if(n==0 && m==0) break;
+        vt.clear();
+        rvt.clear();
         vt.resize(n+1);
         rvt.resize(n+1);
         scanf("%d %d" , &s,&e);
-        for(int i = 0; i<n ; i++) memset(check[i],0,sizeof(check[i]));
+        for(int i = 0; i<=n ; i++) memset(check[i],0,sizeof(check[i]));
         for (int i = 0; i < m; i++) {
             int a,b,c;
             scanf("%d %d %d" , &a,&b,&c);
@@ -78,7 +80,7 @@ int main(){
         dij();
         checkLine();
         dij();
-        
-        printf("%d\n" , dist[e-1]);
+
+        printf("%d\n" , dist[e]);
     }
 }
