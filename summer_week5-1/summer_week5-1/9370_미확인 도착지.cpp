@@ -43,6 +43,7 @@ void dij(int start,int dist[]){
 
 void init(){
     ans.clear();
+    des.clear();
     vt.clear();
     vt.resize(n+1);
     memset(dist1,-1,sizeof(dist1));
