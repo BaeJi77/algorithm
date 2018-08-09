@@ -17,7 +17,7 @@ vector<ll> vt;
 
 int main(){
     scanf("%lld" , &n);
-    for (ll i = 0; i < n; i++) {
+    for (ll i = 1; i <= n; i++) {
         ll a;
         scanf("%lld" , &a);
         vt.push_back(a);
