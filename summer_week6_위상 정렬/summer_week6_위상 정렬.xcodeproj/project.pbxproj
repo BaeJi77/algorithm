@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7886C37B211C5E21007233E5 /* 1005_ACM Craft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7886C37A211C5E21007233E5 /* 1005_ACM Craft.cpp */; };
+		7886C37F211C6E00007233E5 /* 2637_장난감조립.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7886C37E211C6E00007233E5 /* 2637_장난감조립.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,8 @@
 		781F65B0211C1283000DDDB8 /* 2623_음악프로그램.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2623_음악프로그램.cpp"; sourceTree = "<group>"; };
 		781F65B2211C1AFC000DDDB8 /* 1516_게임 개발.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1516_게임 개발.cpp"; sourceTree = "<group>"; };
 		7886C37A211C5E21007233E5 /* 1005_ACM Craft.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1005_ACM Craft.cpp"; sourceTree = "<group>"; };
+		7886C37C211C6617007233E5 /* --9470_Strahler 순서.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--9470_Strahler 순서.cpp"; sourceTree = "<group>"; };
+		7886C37E211C6E00007233E5 /* 2637_장난감조립.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2637_장난감조립.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,8 @@
 				781F65B0211C1283000DDDB8 /* 2623_음악프로그램.cpp */,
 				781F65B2211C1AFC000DDDB8 /* 1516_게임 개발.cpp */,
 				7886C37A211C5E21007233E5 /* 1005_ACM Craft.cpp */,
+				7886C37C211C6617007233E5 /* --9470_Strahler 순서.cpp */,
+				7886C37E211C6E00007233E5 /* 2637_장난감조립.cpp */,
 			);
 			path = "summer_week6_위상 정렬";
 			sourceTree = "<group>";
@@ -127,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7886C37B211C5E21007233E5 /* 1005_ACM Craft.cpp in Sources */,
+				7886C37F211C6E00007233E5 /* 2637_장난감조립.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
