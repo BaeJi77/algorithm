@@ -22,7 +22,7 @@ int main(){
         scanf("%d %d %d" , &K,&M,&P);
         vector<vector<int>> vt(M+1);
         int in[M+1];
-        int Stra[M+1];
+        pair<int, int> Stra[M+1];
         memset(in,0,sizeof(in));
         memset(Stra,0,sizeof(Stra));
         
@@ -36,7 +36,7 @@ int main(){
         for (int i = 1; i <= M; i++) {
             if(in[i]==0){
                 pq.push(-i);
-                Stra[i] = 1;
+                Stra[i].first = 1;
             }
         }
         
@@ -47,22 +47,23 @@ int main(){
             for (int i = 0; i < vt[here].size(); i++) {
                 int there = vt[here][i];
                 
-                if(in[there] == 1){
-                    Stra[there] = max(Stra[here],Stra[there]);
-                    in[there]--;
-                    pq.push(-there);
-                }else if(in[there] > 1){
-                    Stra[there] = max(Stra[there] , Stra[here]+1);
-                    in[there]--;
+                if(Stra[here].first > Stra[there].first) {
+                    Stra[there].first = Stra[here].first;
+                    Stra[there].second = 1;
+                }else if(Stra[there].first == Stra[here].first){
+                    Stra[there].second++;
                 }
+                
+                if(Stra[there].second>=2) {
+                    Stra[there].first++;
+                    Stra[there].second=0;
+                }
+                
+                in[there]--;
+                if(in[there]==0) pq.push(-there);
             }
         }
         
-        int maxx=0;
-        for (int i = 1; i<=M; i++) {
-            maxx = max(maxx , Stra[i]);
-        }
-        
-        printf("%d %d\n" , K , maxx);
+        printf("%d %d\n" , K, Stra[M].first);
     }
 }
