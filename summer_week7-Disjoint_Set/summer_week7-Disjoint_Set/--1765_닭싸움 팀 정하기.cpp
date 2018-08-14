@@ -45,23 +45,41 @@ int main(){
         scanf("%d %d" , &a,&b);
         if(ch == 'E'){
             if(se.find(a) == se.end()){
-                //원소가 존재하지 않다면
+                //a의 적이 없음
+                if(se.find(b) != se.end()){
+                    //b의 적이 존재
+                    e[a] = b;
+                    int sameTeam = e[b];
+                    Merge(sameTeam, a);
+//                    printf("%d %d\n" , a,b);
+                }else{ // se.find(a) == se.end() && se.find(b) == se.end()
+                    se.insert(b);
+                    e[a] = b;
+                    e[b] = a;
+//                    printf("%d %d\n" , a,b);
+                }
                 se.insert(a);
-                e[a] = b;
-            }else{
-                //원소가 존재 한다면
-                int enermy=e[a];
-                Merge(enermy,b);
+//                printf("%d %d\n" , a,b);
+            }else if(se.find(b) == se.end()){
+                //b의 적이 없음
+                if(se.find(a) != se.end()){
+                    //a의 적이 존재
+                    e[b] = a;
+                    int sameTeam = e[a];
+                    Merge(sameTeam, b);
+                }else{
+                    se.insert(a);
+                    e[a] = b;
+                    e[b] = a;
+                }
+                se.insert(b);
+//                printf("%d %d\n" , a,b);
             }
         }else if(ch == 'F'){
             Merge(a, b);
         }
     }
     
-//    for (int i = 1; i<=n; i++) {
-//        printf("%d " , find(i));
-//    }
-//
     cnt = 0;
     for (int i = 1; i<=n; i++) {
         int root = find(i);
@@ -70,14 +88,18 @@ int main(){
             for (int j = i; j <= n; j++) {
                 if(check[j] == -1) continue;
                 if(root == find(j)) {
-//                    printf("%d %d\n" , i ,j);
                     check[j] = -1;
+                    printf("%d %d\n" , i,j);
                 }
             }
             cnt++;
         }
     }
-
+    
+//    for (int i = 1 ; i<=n; i++) {
+//        printf("%d " , p[i]);
+//    }
+//    puts("");
     
     printf("%d" , cnt);
 }

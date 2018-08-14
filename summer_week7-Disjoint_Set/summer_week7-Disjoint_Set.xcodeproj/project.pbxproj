@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78E287A52122C1B900514BD7 /* 9938_방 청소.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78E2879E2121EBEF00514BD7 /* 9938_방 청소.cpp */; };
+		78E287AA2122EB5500514BD7 /* 10775_공항.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78E287A92122EB5500514BD7 /* 10775_공항.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,8 @@
 		78E2879E2121EBEF00514BD7 /* 9938_방 청소.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9938_방 청소.cpp"; sourceTree = "<group>"; };
 		78E287A021228DC900514BD7 /* --12893_적의적.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--12893_적의적.cpp"; sourceTree = "<group>"; };
 		78E287A22122A9E700514BD7 /* --1765_닭싸움 팀 정하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--1765_닭싸움 팀 정하기.cpp"; sourceTree = "<group>"; };
+		78E287A62122C59200514BD7 /* --13306_트리.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--13306_트리.cpp"; sourceTree = "<group>"; };
+		78E287A92122EB5500514BD7 /* 10775_공항.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10775_공항.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,8 @@
 				78E2879E2121EBEF00514BD7 /* 9938_방 청소.cpp */,
 				78E287A021228DC900514BD7 /* --12893_적의적.cpp */,
 				78E287A22122A9E700514BD7 /* --1765_닭싸움 팀 정하기.cpp */,
+				78E287A92122EB5500514BD7 /* 10775_공항.cpp */,
+				78E287A62122C59200514BD7 /* --13306_트리.cpp */,
 				78E2879B212177D100514BD7 /* 1976_여행 가자.cpp */,
 			);
 			path = "summer_week7-Disjoint_Set";
@@ -129,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E287A52122C1B900514BD7 /* 9938_방 청소.cpp in Sources */,
+				78E287AA2122EB5500514BD7 /* 10775_공항.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
