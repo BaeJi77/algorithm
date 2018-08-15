@@ -3,6 +3,25 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "main:2843_&#x1106;&#x1161;&#x1107;&#x1173;&#x11af;.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "line[p[i][1]]">
+            </PersistentString>
+            <PersistentString
+               value = "p[2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Merge(int, int):2843_&#x1106;&#x1161;&#x1107;&#x1173;&#x11af;.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "cycle[uu]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "find(int):9938_&#x1107;&#x1161;&#x11bc; &#x110e;&#x1165;&#x11bc;&#x1109;&#x1169;.cpp">
          <PersistentStrings>
             <PersistentString
@@ -10,6 +29,17 @@
             </PersistentString>
             <PersistentString
                value = "a">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "existCycle(int):2843_&#x1106;&#x1161;&#x1107;&#x1173;&#x11af;.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "visited">
+            </PersistentString>
+            <PersistentString
+               value = "finished">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
