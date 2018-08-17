@@ -7,9 +7,108 @@
 //
 
 #include <stdio.h>
-
+#include <vector>
+#include <algorithm>
+#include <queue>
+#include <cstring>
 using namespace std;
 
-int main(){
+int n,m,minn,maxx,conNum,p[1004];
+bool visited[1004];
+queue<pair<int, int>> qu;
+vector<pair<int, pair<int, int>>> vt;
+vector<vector<pair<int, int>>> map;
+
+void init(){
+    memset(visited,0,sizeof(visited));
+    map.clear();
+    map.resize(n+1);
+    for (int i = 1; i<=n; i++) {
+        p[i] = i;
+    }
+}
+
+int Find(int x){
+    if(p[x] == x) return x;
+    return p[x] = Find(p[x]);
+}
+
+bool Merge(int u , int v){
+    int uu = Find(u);
+    int vv = Find(v);
+    if(uu == vv) return false;
+    p[uu] = vv;
+    return true;
+}
+
+int bfs(int x){
+    int ans = 0;
+    conNum = 0;
+    visited[x] = true;
+    qu.push({-1,x});
+    while (int s = qu.size()) {
+        while (s--) {
+            int here = qu.front().second;
+            int k = qu.front().first;
+            qu.pop();
+            
+            if(k == 1) {
+                ans += conNum*conNum;
+                conNum = 0;
+            }
+            else if(k == 0)conNum++;
+            
+            for (int i = 0 ; i < map[here].size(); i++) {
+                int there = map[here][i].first;
+                int nk = map[here][i].second;
+                if(visited[there] == false) {
+                    qu.push({nk,there});
+                    visited[there] = true;
+                }
+            }
+        }
+    }
     
+    return ans + conNum*conNum;
+}
+
+int main(){
+    scanf("%d %d" , &n,&m);
+    init();
+    for (int i = 0 ; i < m+1; i++) {
+        int a,b,c;
+        scanf("%d %d %d" , &a,&b,&c);
+        if(a==0) continue;
+        vt.push_back({c,{a,b}});
+    }
+    
+    sort(vt.begin(),vt.end());
+    for (int i = 0; i < m; i++) {
+        int w = vt[i].first;
+        int a=  vt[i].second.first;
+        int b = vt[i].second.second;
+        
+        if(Find(a) == Find(b)) continue;
+        Merge(a, b);
+        map[a].push_back({b,w});
+        map[b].push_back({a,w});
+    }
+    int MAXresult = bfs(1);
+    
+    init();
+    reverse(vt.begin(), vt.end());
+    for (int i = 0; i < m; i++) {
+        int w = vt[i].first;
+        int a=  vt[i].second.first;
+        int b = vt[i].second.second;
+        
+        if(Find(a) == Find(b)) continue;
+        Merge(a, b);
+        map[a].push_back({b,w});
+        map[b].push_back({a,w});
+    }
+
+    int MINresult = bfs(1);
+    
+    printf("%d" , MAXresult - MINresult);
 }
