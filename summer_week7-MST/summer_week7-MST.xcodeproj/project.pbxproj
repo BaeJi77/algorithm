@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7883DF192129A88F00DAF663 /* 1774_우주신과의 교감.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1774_우주신과의 교감.cpp"; sourceTree = "<group>"; };
 		78F1273321253F9B004F8C65 /* summer_week7-MST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "summer_week7-MST"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F1273621253F9B004F8C65 /* 1197_최소 스패닝 트리.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1197_최소 스패닝 트리.cpp"; sourceTree = "<group>"; };
 		78F1273D2125439B004F8C65 /* 1922_네트워크 연결.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1922_네트워크 연결.cpp"; sourceTree = "<group>"; };
@@ -29,6 +30,8 @@
 		78F127472125D6F6004F8C65 /* 14950_정복자.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "14950_정복자.cpp"; sourceTree = "<group>"; };
 		78F1274B21288218004F8C65 /* 10423_전기가 부족해.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10423_전기가 부족해.cpp"; sourceTree = "<group>"; };
 		78F1274D2129583A004F8C65 /* 4386_별자리 만들기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "4386_별자리 만들기.cpp"; sourceTree = "<group>"; };
+		78F1275021299A8E004F8C65 /* 2406_안정적인 네트워크.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2406_안정적인 네트워크.cpp"; sourceTree = "<group>"; };
+		78F1275221299F46004F8C65 /* --2887_행성 터널.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "--2887_행성 터널.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +68,14 @@
 				78F1273D2125439B004F8C65 /* 1922_네트워크 연결.cpp */,
 				78F1273F2125447F004F8C65 /* 6497_전력난.cpp */,
 				78F1274121254FB2004F8C65 /* --1647_도시 분할 계획.cpp */,
+				7883DF192129A88F00DAF663 /* 1774_우주신과의 교감.cpp */,
 				78F127432125529B004F8C65 /* 14621_나만 안되는 연애.cpp */,
 				78F127452125D202004F8C65 /* --13418_학교 탐방하기.cpp */,
 				78F127472125D6F6004F8C65 /* 14950_정복자.cpp */,
 				78F1274B21288218004F8C65 /* 10423_전기가 부족해.cpp */,
 				78F1274D2129583A004F8C65 /* 4386_별자리 만들기.cpp */,
+				78F1275021299A8E004F8C65 /* 2406_안정적인 네트워크.cpp */,
+				78F1275221299F46004F8C65 /* --2887_행성 터널.cpp */,
 			);
 			path = "summer_week7-MST";
 			sourceTree = "<group>";
