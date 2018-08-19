@@ -33,8 +33,6 @@ bool Merge(int u , int v){
     int vv = Find(v);
     if(uu == vv) return false;
     p[vv] = uu;
-//    visited[u] = true;
-//    visited[v] = true;
     return true;
 }
 

@@ -37,7 +37,7 @@ bool Merge(int u , int v){
     int uu = Find(u);
     int vv = Find(v);
     if(uu == vv) return false;
-    p[uu] = vv;
+    p[vv] = uu;
     return true;
 }
 
@@ -78,37 +78,31 @@ int main(){
     for (int i = 0 ; i < m+1; i++) {
         int a,b,c;
         scanf("%d %d %d" , &a,&b,&c);
-        if(a==0) continue;
         vt.push_back({c,{a,b}});
     }
     
     sort(vt.begin(),vt.end());
-    for (int i = 0; i < m; i++) {
-        int w = vt[i].first;
+    for (int i = 0; i < m+1; i++) {
+        int w = vt[i].first -1;
         int a=  vt[i].second.first;
         int b = vt[i].second.second;
         
         if(Find(a) == Find(b)) continue;
         Merge(a, b);
-        map[a].push_back({b,w});
-        map[b].push_back({a,w});
+        maxx += w;
     }
-    int MAXresult = bfs(1);
     
     init();
     reverse(vt.begin(), vt.end());
-    for (int i = 0; i < m; i++) {
-        int w = vt[i].first;
+    for (int i = 0; i < m+1; i++) {
+        int w = vt[i].first -1;
         int a=  vt[i].second.first;
         int b = vt[i].second.second;
         
         if(Find(a) == Find(b)) continue;
         Merge(a, b);
-        map[a].push_back({b,w});
-        map[b].push_back({a,w});
+        minn += w;
     }
 
-    int MINresult = bfs(1);
-    
-    printf("%d" , MAXresult - MINresult);
+    printf("%d" , maxx*maxx - minn*minn);
 }
