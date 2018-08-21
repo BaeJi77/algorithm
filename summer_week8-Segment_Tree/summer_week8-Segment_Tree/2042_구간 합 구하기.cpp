@@ -42,4 +42,8 @@ int main() {
             printf("%lld\n" , query(b, c, 1, 1, n));
         }
     }
+    for (int i = 1; i <=n*4; i++) {
+        printf("%d " , seg[i]);
+    }
+    puts("");
 }
