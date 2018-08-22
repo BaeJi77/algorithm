@@ -2,4 +2,22 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "summer_week1-2/2206_&#x1107;&#x1167;&#x11a8; &#x1107;&#x116e;&#x1109;&#x116e;&#x1100;&#x1169; &#x110b;&#x1175;&#x1103;&#x1169;&#x11bc;&#x1112;&#x1161;&#x1100;&#x1175;.cpp"
+            timestampString = "556598106.245579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "bfs(int y, int x,int firstCnt)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
