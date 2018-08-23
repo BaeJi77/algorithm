@@ -14,15 +14,24 @@ typedef long long ll;
 ll a, r, n , mod;
 ll sum;
 
+ll lowPow(ll val, ll power){
+    if(power == 0) return 1;
+    if(power % 2 == 1) return (val%mod)*lowPow( val%mod, (power-1)%mod )%mod;
+    else return lowPow((val*val)%mod, power/2 )%mod;
+}
 
 int main(){
     scanf("%lld %lld %lld %lld" , &a, &r, &n, &mod);
     if(r == 1){
         sum = n;
     }else {
-        sum = (pow(r, n)-1)/(r-1);
+//        printf("%d\n" , (pow(r,n)-1)/(r-1));
+//        printf("%d\n" , (lowPow(r, n)-1)/(r-1));
+//        sum = ((a*(lowPow(r, n))-1))%mod/(r-1);
+        sum = (pow(r,n)-1)/(r-1);
         sum = sum % mod;
     }
     
-    printf("%lld" , (a*sum)%mod);
+    printf("%lld" , (sum)%mod);
 }
+
