@@ -32,7 +32,7 @@ int main(){
     for (ll i = 1; i < n*4; i++) {
         seg[i] = 1;
     }
-    
+    a
     for (ll i = 1; i <=n; i++) {
         ll a = 0;
         scanf("%lld" , &a);
