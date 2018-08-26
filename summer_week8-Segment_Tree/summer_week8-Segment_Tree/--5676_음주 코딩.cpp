@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <cstring>
+#include <algorithm>
 #define MAX 100000
 using namespace std;
 typedef long long ll;
@@ -35,9 +36,11 @@ ll query(ll lo, ll hi , ll node ,ll x, ll y){
 
 int main(){
     while (scanf("%lld %lld", &n,&k) != EOF) {
-        for (int i = 1; i <= 4*MAX+4; i++)
-            seg[i] = 1;
         memset(nodeVal , 0, sizeof(nodeVal));
+        memset(seg,0,sizeof(seg));
+        fill(seg, seg+4*MAX+4, 1);
+//        for (int i = 1; i <= 4*MAX+4; i++)
+//            seg[i] = 1;
         
         for (ll i = 1; i <= n; i++) {
             ll a;
@@ -56,6 +59,7 @@ int main(){
                 update(a, b, 1, 1, n);
             }else{
                 ll ans = query(a, b, 1, 1, n);
+//                printf("%lld\n" , ans);
                 if(ans > 0) printf("+");
                 else if(ans < 0) printf("-");
                 else printf("0");
