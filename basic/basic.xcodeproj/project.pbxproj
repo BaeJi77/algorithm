@@ -39,6 +39,7 @@
 		7883DFBF2132CFD600DAF663 /* 2294_동전 2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2294_동전 2.cpp"; sourceTree = "<group>"; };
 		7883DFC12132D5FF00DAF663 /* 2193_이친수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2193_이친수.cpp"; sourceTree = "<group>"; };
 		7883DFC32133DFD300DAF663 /* 1904_01타일.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1904_01타일.cpp"; sourceTree = "<group>"; };
+		7883DFC52133E2EB00DAF663 /* 11726_2xn 타일링.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11726_2xn 타일링.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 				7883DFBF2132CFD600DAF663 /* 2294_동전 2.cpp */,
 				7883DFC12132D5FF00DAF663 /* 2193_이친수.cpp */,
 				7883DFC32133DFD300DAF663 /* 1904_01타일.cpp */,
+				7883DFC52133E2EB00DAF663 /* 11726_2xn 타일링.cpp */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
