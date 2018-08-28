@@ -1,7 +1,7 @@
-//
+//  https://www.acmicpc.net/problem/14728
 //  14728_벼락치기.cpp
 //  summer_week2-2
-//  https://www.acmicpc.net/problem/14728
+//
 //  Created by Hoon on 2018. 7. 16..
 //  Copyright © 2018년 Hoon. All rights reserved.
 //
