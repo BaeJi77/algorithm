@@ -7,23 +7,37 @@
 //
 
 #include <stdio.h>
+#include <cstring>
 
 using namespace std;
 
-int N,a;
+int N,dp[15];
 
-void dp(){
+int sol(int n){
+    if(n < 0)
+        return 0;
+    if(n == 0)
+        return 1;
     
+    int &ret = dp[n];
+    if(ret != -1)
+        return ret;
     
+    ret = sol(n-1) + sol(n-2);
+    if(n >= 3)
+        ret += sol(n-3);
     
+    return ret;
 }
 
 int main(){
-    scanf("%d" , &N);
-    for (int i = 0; i < N; i++) {
-        scanf("%d" , &a);
-//        int out = dp(a);
-//        printf("%d" , out);
+    int test;
+    scanf("%d" , &test);
+    while (test--) {
+        scanf("%d" , &N);
+        memset(dp,-1,sizeof(dp));
+        
+        printf("%d\n" , sol(N));
     }
 }
 

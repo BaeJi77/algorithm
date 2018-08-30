@@ -25,9 +25,6 @@ int main(){
     if(r == 1){
         sum = n;
     }else {
-//        printf("%d\n" , (pow(r,n)-1)/(r-1));
-//        printf("%d\n" , (lowPow(r, n)-1)/(r-1));
-//        sum = ((a*(lowPow(r, n))-1))%mod/(r-1);
         sum = (pow(r,n)-1)/(r-1);
         sum = sum % mod;
     }
