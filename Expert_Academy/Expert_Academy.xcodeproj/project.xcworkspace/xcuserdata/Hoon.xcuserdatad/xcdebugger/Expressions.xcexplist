@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "solve(int, int, int, int):1937_&#x110b;&#x116d;&#x11a8;&#x1109;&#x1175;&#x11b7;&#x110c;&#x1162;&#x11bc;&#x110b;&#x1175; &#x1111;&#x1161;&#x11ab;&#x1103;&#x1161;.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "map[y][x]">
+            </PersistentString>
+            <PersistentString
+               value = "map[yy][xx]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
