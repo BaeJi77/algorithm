@@ -8,47 +8,63 @@
 
 #include <stdio.h>
 #include <cstring>
+#include <iostream>
+#include <vector>
+#include <queue>
 
 #define MAX 2000
 using namespace std;
 
-int N,M,p[MAX+4];
+int N,M,color[MAX+4];
+vector<vector<int>> vt;
+queue<pair<int, int>> qu;
 
-int ffind(int x){
-    if(p[x] < 0) return x;
-    return p[x] = ffind(p[x]);
+void bfs(int x){
+    qu.push({x,1});
+    while (int s = qu.size()) {
+        while (s--) {
+            int here = qu.front().first;
+            int col = qu.front().second;
+            qu.pop();
+            
+            if(color[here] != 0)
+                continue;
+            color[here] = col;
+            
+            for (int i = 0; i < vt[here].size(); i++) {
+                int there = vt[here][i];
+                if(color[there] == 0)
+                    qu.push({there,3-col});
+            }
+        }
+    }
 }
 
-int Merge(int a,int b){
-    int aa = ffind(a);
-    int bb = ffind(b);
-    if(aa == bb)
-        return -1;
-    p[aa] = bb;
-    return 1;
-}
-
-void init(){
-    memset(p,-1,sizeof(p));
-}
 
 int main(){
     scanf("%d %d", &N,&M);
-    init();
+    vt.resize(N+1);
     for (int i = 0; i <M; i++) {
         int a,b;
         scanf("%d %d" , &a,&b);
-        Merge(a, b);
+        vt[a].push_back(b);
+        vt[b].push_back(a);
+    }
+    
+    for (int i = 1; i <= N; i++) {
+        if(color[i] == 0)
+            bfs(i);
     }
     
     bool result = false;
-    for (int i = 1; i <= N-1; i++) {
-        if(ffind(i) != ffind(i+1))
-            result = true;
+    for (int i = 1; i <= N ; i++) {
+        for (int j = 0; j < vt[i].size(); j++) {
+            int here = vt[i][j];
+            if(color[i] == color[here])
+                result = true;
+        }
     }
     
-    if(result == false)
-        printf("0");
-    else
-        printf("1");
+    if(result) printf("0");
+    else printf("1");
 }
