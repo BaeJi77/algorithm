@@ -7,6 +7,7 @@
 //
 
 #include <stdio.h>
+#include <string>
 
 using namespace std;
 
@@ -39,7 +40,7 @@ public:
             if(children[next] == nullptr){
                 children[next] = new TrieNode();
             }
-            
+            printf("%s\n" , key);
             children[next]->insert(key+1);
         }
     }
@@ -48,12 +49,16 @@ public:
         if(*key == '\0') return true;
         else if(terminal == true) return false;
         else{
-            int next = (*key) - '0';
+            int next = (*key) - 'A';
             return children[next]->isConsistent(key + 1);
         }
     }
 };
 
 int main(){
+    TrieNode* root = new TrieNode();
     
+    string str = "ABC";
+    
+    root->insert(str.c_str());
 }
