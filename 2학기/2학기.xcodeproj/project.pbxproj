@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78E9E393216B813C00D0C8A5 /* Bipartite Matching_11375.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78E9E392216B813C00D0C8A5 /* Bipartite Matching_11375.cpp */; };
+		7869D74B216B99A4005A333C /* Bipartite Matching_3295.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7869D74A216B99A4005A333C /* Bipartite Matching_3295.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		783BE99621521F81009E2BE1 /* 1321_군인.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1321_군인.cpp"; sourceTree = "<group>"; };
 		783BE99D21522688009E2BE1 /* 2243_사탕상자.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2243_사탕상자.cpp"; sourceTree = "<group>"; };
 		783BE99F2152351D009E2BE1 /* 5676_음주 코딩.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5676_음주 코딩.cpp"; sourceTree = "<group>"; };
+		7869D74A216B99A4005A333C /* Bipartite Matching_3295.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bipartite Matching_3295.cpp"; sourceTree = "<group>"; };
 		7875A5F9215CE47B00192270 /* Dijkstra_1753.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra_1753.cpp; sourceTree = "<group>"; };
 		7875A5FB215CF03400192270 /* Dijkstra_1238.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra_1238.cpp; sourceTree = "<group>"; };
 		7875A5FD215CF57D00192270 /* Dijkstra_1261.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dijkstra_1261.cpp; sourceTree = "<group>"; };
@@ -58,6 +59,8 @@
 		78E9E38E216B2B6E00D0C8A5 /* dp_1890.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dp_1890.cpp; sourceTree = "<group>"; };
 		78E9E390216B787100D0C8A5 /* Bipartite Matching_9576.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bipartite Matching_9576.cpp"; sourceTree = "<group>"; };
 		78E9E392216B813C00D0C8A5 /* Bipartite Matching_11375.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bipartite Matching_11375.cpp"; sourceTree = "<group>"; };
+		78E9E394216B850700D0C8A5 /* Bipartite Matching_11376.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bipartite Matching_11376.cpp"; sourceTree = "<group>"; };
+		78E9E396216B8DC900D0C8A5 /* Bipartite Matching_11377.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bipartite Matching_11377.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,9 @@
 				78E9E38E216B2B6E00D0C8A5 /* dp_1890.cpp */,
 				78E9E390216B787100D0C8A5 /* Bipartite Matching_9576.cpp */,
 				78E9E392216B813C00D0C8A5 /* Bipartite Matching_11375.cpp */,
+				78E9E394216B850700D0C8A5 /* Bipartite Matching_11376.cpp */,
+				78E9E396216B8DC900D0C8A5 /* Bipartite Matching_11377.cpp */,
+				7869D74A216B99A4005A333C /* Bipartite Matching_3295.cpp */,
 			);
 			path = review;
 			sourceTree = "<group>";
@@ -209,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E9E393216B813C00D0C8A5 /* Bipartite Matching_11375.cpp in Sources */,
+				7869D74B216B99A4005A333C /* Bipartite Matching_3295.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
