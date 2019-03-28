@@ -13,18 +13,25 @@ int main(){
     freopen("input.txt","r",stdin);
     scanf("%d", &N);
     int cnt = 0;
-    int temp = 0;
-    for(int i = 1 ; i <= N ; i *= 10){
-        int check = 0;
-        temp = i;
-        while(1){
-            temp /= 10;
-            check++;
-            if(temp == 0)
+    int pre = 1;
+    int next = 10;
+    int digit = 1;
+    bool end = 0;
+    while(1){
+        for(int i = pre ; i < next ; i++){
+            // printf("%d %d %d\n", i, digit, cnt);
+            if(i > N){
+                end = 1;
                 break;
+            }
+            cnt += digit;
         }
-        printf("%d %d\n", i, check);
-        cnt += check * i * 9;
+
+        if(end)
+            break;
+        pre *= 10;
+        next *= 10;
+        digit++;
     }
     printf("%d\n", cnt);
 }
