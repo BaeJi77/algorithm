@@ -2,6 +2,7 @@ algorithm
 algorithm.pub
 
 *.xcodeproj
+xcodeproj
 input.txt
 .vscode
 .exec
