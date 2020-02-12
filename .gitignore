@@ -6,4 +6,4 @@ xcodeproj
 input.txt
 .vscode
 .exec
-README.md
+*.o
