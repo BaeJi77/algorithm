@@ -8,3 +8,4 @@ xcodeproj
 input.txt
 .vscode
 *.exec
+.DS_Store
