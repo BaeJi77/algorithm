@@ -9,3 +9,4 @@ input.txt
 .vscode
 *.exec
 .DS_Store
+/TIP
