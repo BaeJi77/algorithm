@@ -11,8 +11,10 @@ ll N;
 int dp[101];
 int arr[] = {1, 10, 25};
 
-int solve(int don, int goal) {
-    if(don == goal) {
+int solve(int don) {
+    if(don < 0)
+        return MAX;
+    if(don == 0) {
         return 0;
     }
 
@@ -21,8 +23,7 @@ int solve(int don, int goal) {
         return ret;
     
     for(int i = 0 ; i < 3 ; i++) {
-        if(don + arr[i] <=  goal)
-            ret = min(ret, solve(don + arr[i], goal) + 1);
+        ret = min(ret, solve(don - arr[i]) + 1);
     }
 
     return ret;
@@ -35,14 +36,16 @@ int main() {
     freopen("/Users/baejihoon/Desktop/algorithm/input.txt","r",stdin);
     ll t;
     scanf("%lld", &t);
+    for(int i = 0 ; i < 101; i++)
+        dp[i] = MAX;
+    solve(100);
+    dp[0] = 0;
     while(t--) {
         scanf("%lld", &N);
         ll ans = 0;
         while(1) {
-            for(int i = 0 ; i < 101; i++)
-                dp[i] = MAX;
             if(N == 0) break;
-            ans += solve(0, N % 100);
+            ans += dp[N % 100];
             N /= 100;
         }
         printf("%lld\n", ans);
