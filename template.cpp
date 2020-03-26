@@ -1,5 +1,7 @@
 #include <cstdio>
 #include <algorithm>
+#include <cmath>
+#include <cstring>
 
 using namespace std;
 
