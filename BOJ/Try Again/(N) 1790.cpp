@@ -12,7 +12,7 @@ ll kNumber[20];
 ll digitNumber[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
 int main() {
-    freopen("/Users/baejihoon/Desktop/algorithm/input.txt","r",stdin);
+    freopen("/Users/baejihoon/Desktop/알고리즘/algorithm/input.txt","r",stdin);
     scanf("%d %d", &N, &K);
     
     if(N >= K && N < 10 && K < 10) {
@@ -23,17 +23,17 @@ int main() {
         return 0;
     }
 
-    ll i = 1;
-    ll digit = 0;
-    while(1) {
-        if(digit >= 190) break;
-        if(i < 10) digit++;
-        if(10 <= i && i < 100) digit += 2;
-        if(100 <= i && i < 1000) digit += 3;
-        printf("%d", i);
-        i++;
-    }
-    printf("\n%d %d\n", i, digit);
+    // ll i = 1;
+    // ll digit = 0;
+    // while(1) {
+    //     if(digit >= 190) break;
+    //     if(i < 10) digit++;
+    //     if(10 <= i && i < 100) digit += 2;
+    //     if(100 <= i && i < 1000) digit += 3;
+    //     printf("%d", i);
+    //     i++;
+    // }
+    // printf("\n%d %d\n", i, digit);
         
     ll cumulativeSum = 0;
     ll maxDigit = 1;
@@ -81,11 +81,11 @@ int main() {
         return 0;
     }
 
-    if(K > cumulativeSum) {
-        realKNumber++;
-        cumulativeSum += digitNumber[maxDigit];
-    }
-    printf("%d %d\n",N, realKNumber);
+    // if(K > cumulativeSum) {
+    //     realKNumber++;
+    //     cumulativeSum += digitNumber[maxDigit];
+    // }
+    printf("%d %d\n",N , realKNumber);
     if(N < realKNumber) printf("-1");
     else {
         int ansDigit = cumulativeSum - K + 1;
