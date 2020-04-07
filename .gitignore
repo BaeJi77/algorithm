@@ -10,3 +10,4 @@ input.txt
 *.exec
 .DS_Store
 /TIP
+/Test

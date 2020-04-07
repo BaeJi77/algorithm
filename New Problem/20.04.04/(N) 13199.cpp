@@ -16,24 +16,36 @@ int main() {
     while(t--) {
         int ans = 0;
         scanf("%d %d %d %d", &P, &M, &F, &C);
-        int sang = (M / P);
-        int sangCoupon = sang * C;
-        // printf("\n%d\n", sang);
-        int kk = 0;
-        while(1) {
-            int addChi = sangCoupon / F;
-            kk = max(kk, addChi);
-            printf("%d %d %d %d\n", sangCoupon, addChi, kk, kk * C);
-            if(addChi == 0) break;
-            sang += addChi;
-            sangCoupon %= F;
-            sangCoupon += addChi * C;
-        }
+        int sang = 0;
+        int sangCoupon = ((M / P * C) / F) * C;
+        int temp = sangCoupon;
+        // printf("Coupone:%d F: %d C: %d\n", sangCoupon , F, C);
+        // while(1) {
+        //     int addChi = sangCoupon / F;
+        //     if(addChi == 0) break;
+        //     // printf("%d %d %d %d %d\n", sangCoupon, addChi ,addChi * C, sangCoupon % F, sangCoupon % F + addChi * C);
+        //     sang += addChi;
+        //     sangCoupon %= F;
+        //     sangCoupon += addChi * C;
+        // }
 
-        int doo = (M / P);
-        doo += (doo * C) / F;
-        // printf("%d %d\n", sang, doo);
+        // 쿠폰을 쓰지도 못하는데 쿠폰을 땡겨씀.
+        // 땡겨쓴 쿠폰은 안되지~~~
+        // 쿠폰은 분명히 남아야 됨.
+        // temp / (F - C)
+        // 사면 안되는데 산 경우가 있겠지.
+        // 여기서 값을 빼줘야 됨.
+        // 남아있는 쿠폰이 C만큼은 있어야 한다?
+        // F 
+
+        // F + C
+        // (F - C)
+        // printf("%d\n", C / (F - C));
+        int kk = (temp) / (F - C) - (F / (F - C));
+        // if(F - C == 1) kk -= C;
+        // if(temp % (F - C) == 0) kk -= C;
         // 상언이가 두영이보다 더 많이 먹을 수 있는 치킨의 수
-        printf("%d\n", sang - doo);
+        // printf("%d %d\n\n", sang, kk);
+        printf("%d\n", kk);
     }
 }
