@@ -8,5 +8,5 @@
 using namespace std;
 
 int main() {
-    freopen("/Users/baejihoon/Desktop/algorithm/input.txt","r",stdin);
+    freopen("/Users/baejihoon/Desktop/PS/algorithm/input.txt","r",stdin);
 }
