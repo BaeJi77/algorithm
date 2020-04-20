@@ -26,6 +26,7 @@ void solve(vector<int> numbers, int bit) {
     }
 }
 
+// O(8!) -> O(nPm);
 int main() {
     freopen("/Users/baejihoon/Desktop/PS/algorithm/input.txt","r",stdin);
     scanf("%d %d", &N, &M);
