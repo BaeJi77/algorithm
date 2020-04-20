@@ -25,7 +25,6 @@ int bfs(string in) {
         while(s--) {
             string now = qu.front();
             qu.pop();
-            // cout<<now<<endl;
             if(now == ans) {
                 return cnt;
             }
@@ -33,7 +32,6 @@ int bfs(string in) {
             for(int i = 0 ; i < N - K + 1; ++i) {
                 string next = now;
                 reverse(next.begin() + i, next.begin() + i + K);
-                // cout<<next<<endl;
                 if(mp.find(next) == mp.end()) {
                     qu.push(next);
                     mp[next] = true;
