@@ -25,7 +25,6 @@ int main() {
         else nowCorrectSize = 0;
         
         st.push(make_pair(input[i], nowCorrectSize));
-        // cout<<input[i]<<" "<<nowCorrectSize<<"\n";
         if(nowCorrectSize == bomb.size()) {
             for(int i = 0 ; i < bomb.size() ; ++i)
                 st.pop();
