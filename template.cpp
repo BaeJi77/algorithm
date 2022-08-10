@@ -12,5 +12,5 @@
 using namespace std;
 
 int main() {
-    freopen("/Users/baejihoon/Desktop/PS/algorithm/input.txt","r",stdin);
+    freopen("~/Desktop/PS/algorithm/input.txt","r",stdin);
 }
